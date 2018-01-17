@@ -8,6 +8,12 @@ targets:
   crystal_web_app:
     main: src/crystal_web_app.cr
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+
 crystal: 0.24.1
 
 license: MIT

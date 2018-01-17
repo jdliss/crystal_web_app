@@ -1,6 +1,12 @@
 require "./crystal_web_app/*"
+require "kemal"
 
-# TODO: Write documentation for `CrystalWebApp`
 module CrystalWebApp
-  # TODO: Put your code here
+
+  get "/" do
+    "Hello World!"
+  end
+
+  Kemal.config.port = 3000
+  Kemal.run
 end
