@@ -1,0 +1,13 @@
+name: crystal_web_app
+version: 0.1.0
+
+authors:
+  - Jonathan Liss <jonacom@lissismore.com>
+
+targets:
+  crystal_web_app:
+    main: src/crystal_web_app.cr
+
+crystal: 0.24.1
+
+license: MIT
