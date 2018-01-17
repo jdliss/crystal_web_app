@@ -1,1 +1,20 @@
-Testing out crystal with a small web app
+## Crystal Web Server Demo
+
+### To Run
+
+* [Install Crystal](https://crystal-lang.org/docs/)
+
+* Install Crystal Shards
+
+```sh
+$ shards install
+```
+
+* Start the server
+
+```sh
+$ crystal run src/crystal_web_app.cr
+```
+
+* Navigate to `localhost:3000`
+
