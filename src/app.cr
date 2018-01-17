@@ -1,12 +1,12 @@
-require "./crystal_web_app/*"
+require "./app/*"
 require "kemal"
 
-module CrystalWebApp
+module App
   Kemal.config.port = 3000
 
   get "/" do
     # Render specified view (views/home.ecr) inside specified layout template (views/layouts/main.ecr)
-    render "src/crystal_web_app/views/home.ecr", "src/crystal_web_app/views/layouts/main.ecr"
+    render "src/app/views/home.ecr", "src/app/views/layouts/main.ecr"
   end
 
   Kemal.run

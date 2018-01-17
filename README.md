@@ -13,7 +13,7 @@ $ shards install
 * Start the server
 
 ```sh
-$ crystal run src/crystal_web_app.cr
+$ crystal run src/app.cr
 ```
 
 * Navigate to `localhost:3000`
